@@ -1,0 +1,48 @@
+.checked {
+  color: orange;
+}
+
+progress
+{
+  text-align:center;
+  height: 2em;
+  width: 100%;
+
+  -webkit-appearance: none;
+  border: none;
+}
+
+progress:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  vertical-align: 0
+}
+
+progress::-webkit-progress-bar {
+  background-color: #c9c9c9;
+}
+
+progress::-webkit-progress-value {
+  background-color: #7cc4ff;
+}
+
+progress::-moz-progress-bar
+{
+  background-color: #7cc4ff;
+}
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.dev {background-color: #000;
+}
+
+.collection .collection-item.avatar{
+  background-color: #ebebebeb !important;
+}
+
+.collection .collection-item.avatar{
+  background-color: #ebebeb
+}
