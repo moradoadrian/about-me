@@ -64,3 +64,31 @@ progress::-moz-progress-bar
   background: #3B5998;
   color: white;
 }
+
+
+.contenedor {
+  margin: auto;
+  display: table;
+}
+
+h1 { 
+  position: relative; 
+  float: left;
+  background: #ff634700;
+  color: #000;
+  font-size: 2.5em;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #EBEBEB;
+    border-left: 1px solid #000;
+    animation: Soy 3s steps(30) infinite alternate;
+}
+
+@keyframes Soy {
+    from { width: 100% }
+    to { width:0 }
+}
