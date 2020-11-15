@@ -1,59 +1,57 @@
 .checked {
-  color: orange;
+    color: orange;
 }
 
-progress
-{
-  text-align:center;
-  height: 2em;
-  width: 100%;
-
-  -webkit-appearance: none;
-  border: none;
+progress {
+    text-align: center;
+    height: 2em;
+    width: 100%;
+    -webkit-appearance: none;
+    border: none;
 }
 
 progress:before {
-  content: attr(data-label);
-  font-size: 0.8em;
-  vertical-align: 0
+    content: attr(data-label);
+    font-size: 0.8em;
+    vertical-align: 0
 }
 
 progress::-webkit-progress-bar {
-  background-color: #c9c9c9;
+    background-color: #c9c9c9;
 }
 
 progress::-webkit-progress-value {
-  background-color: #7cc4ff;
+    background-color: #7cc4ff;
 }
 
-progress::-moz-progress-bar
-{
-  background-color: #7cc4ff;
+progress::-moz-progress-bar {
+    background-color: #7cc4ff;
 }
 
 .label {
-  color: white;
-  padding: 8px;
+    color: white;
+    padding: 8px;
 }
 
-.dev {background-color: #000;
+.dev {
+    background-color: #000;
 }
 
-.collection .collection-item.avatar{
-  background-color: #ebebebeb !important;
+.collection .collection-item.avatar {
+    background-color: #ebebebeb !important;
 }
 
-.collection .collection-item.avatar{
-  background-color: #ebebeb
+.collection .collection-item.avatar {
+    background-color: #ebebeb
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa:hover {
@@ -61,34 +59,37 @@ progress::-moz-progress-bar
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
-
 
 .contenedor {
-  margin: auto;
-  display: table;
+    margin: auto;
+    display: table;
 }
 
-h1 { 
-  position: relative; 
-  float: left;
-  background: #ff634700;
-  color: #000;
-  font-size: 2.5em;
+h1 {
+    position: relative;
+    float: left;
+    background: #ff634700;
+    color: #000;
+    font-size: 2.5em;
 }
 
 h1 span {
-    position:absolute;
-    right:0;
-    width:0;
+    position: absolute;
+    right: 0;
+    width: 0;
     background: #EBEBEB;
     border-left: 1px solid #000;
     animation: Soy 3s steps(30) infinite alternate;
 }
 
 @keyframes Soy {
-    from { width: 100% }
-    to { width:0 }
+    from {
+        width: 100%
+    }
+    to {
+        width: 0
+    }
 }
