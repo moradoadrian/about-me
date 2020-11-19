@@ -98,3 +98,7 @@ label {
     padding-right: 10px;
     font-size: 1rem;
 }
+
+.animate__rubberBand {
+    --animate-duration: 2s;
+}
