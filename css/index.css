@@ -93,3 +93,8 @@ h1 span {
         width: 0
     }
 }
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
