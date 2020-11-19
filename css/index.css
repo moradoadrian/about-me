@@ -87,10 +87,10 @@ h1 span {
 
 @keyframes Soy {
     from {
-        width: 100%
+        width: 50%
     }
     to {
-        width: 0
+        width: 100%
     }
 }
 
